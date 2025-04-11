@@ -182,13 +182,13 @@ function isPrime(number) {
 // Create a function called sumOfDigits that takes a positive integer as a parameter and calculates the sum of its digits. Print the result to the console.
 
 
-
+ 
 
 function sumOfDigits(number) {
     let sum = 0;
     let digits = number.toString().split(''); 
-    for (let digit of digits) {
-      sum += parseInt(digit);  
+    for (let i = 0; i < digits.length ;i++) {
+      sum += parseInt(digits);  
     }
     console.log("lmajmou3e dyale lar9ame howa "+ sum);
   }
